@@ -1,0 +1,22 @@
+{
+  "name": "lnet-permissioning-scripts",
+  "version": "1.0.0",
+  "description": "Scripts to give/revoke permissions in the LNET blockchain",
+  "main": "index.js",
+  "scripts": {
+    "permission:address": "node scripts/permissioning_address.js",
+    "permission:admin": "node scripts/permissioning_admin.js",
+    "permission:target": "node scripts/permissioning_target.js",
+    "permission:nodes": "node scripts/permissioning_nodes.js"
+  },
+  "keywords": [
+    "blockchain",
+    "permissioning",
+    "lnet"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ethers": "^4.0.49"
+  }
+}
